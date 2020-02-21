@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineTaxCalculator.Web", "OnlineTaxCalculator.Web\OnlineTaxCalculator.Web.csproj", "{3898F501-84AE-4161-87E6-3D78A3EE1E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineTaxCalculator.Domain", "OnlineTaxCalculator.Domain\OnlineTaxCalculator.Domain.csproj", "{9E962901-463A-409F-9279-5F86056AC83E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3898F501-84AE-4161-87E6-3D78A3EE1E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3898F501-84AE-4161-87E6-3D78A3EE1E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3898F501-84AE-4161-87E6-3D78A3EE1E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3898F501-84AE-4161-87E6-3D78A3EE1E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E962901-463A-409F-9279-5F86056AC83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E962901-463A-409F-9279-5F86056AC83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E962901-463A-409F-9279-5F86056AC83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E962901-463A-409F-9279-5F86056AC83E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43438236-FCF3-4D50-8B43-44322F26B226}
+	EndGlobalSection
+EndGlobal
