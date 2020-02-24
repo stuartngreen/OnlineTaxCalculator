@@ -34,7 +34,7 @@ namespace OnlineTaxCalculator.Test
         }
 
         [Fact]
-        public void GetPaye_GivenGrossSalaryAndDeductionsAndYear2019_ReturnsCorrectValue()
+        public void GetPaye_GivenEmployeeAndGrossSalaryAndDeductionsAndYear2019_ReturnsCorrectValue()
         {
             // Arrange
             var employee = new Employee
@@ -43,10 +43,13 @@ namespace OnlineTaxCalculator.Test
             };
 
             var paySlip = new PaySlip(employee);
+
             var taxYear = 2019;
+
             var expected = 9156.21m;
 
             paySlip.GrossSalary = 40000m;
+
             paySlip.DeductionItems.Add(new Deduction
             {
                 Name = "Pension",
