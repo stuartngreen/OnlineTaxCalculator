@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineTaxCalculator.Web", "OnlineTaxCalculator.Web\OnlineTaxCalculator.Web.csproj", "{3898F501-84AE-4161-87E6-3D78A3EE1E01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineTaxCalculator.Web", "OnlineTaxCalculator.Web\OnlineTaxCalculator.Web.csproj", "{3898F501-84AE-4161-87E6-3D78A3EE1E01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineTaxCalculator.Domain", "OnlineTaxCalculator.Domain\OnlineTaxCalculator.Domain.csproj", "{9E962901-463A-409F-9279-5F86056AC83E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineTaxCalculator.Domain", "OnlineTaxCalculator.Domain\OnlineTaxCalculator.Domain.csproj", "{9E962901-463A-409F-9279-5F86056AC83E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineTaxCalculator.Test", "OnlineTaxCalculator.Test\OnlineTaxCalculator.Test.csproj", "{FE6190D2-7AB2-4F71-AA33-35CA6955EF2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9E962901-463A-409F-9279-5F86056AC83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E962901-463A-409F-9279-5F86056AC83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E962901-463A-409F-9279-5F86056AC83E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6190D2-7AB2-4F71-AA33-35CA6955EF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6190D2-7AB2-4F71-AA33-35CA6955EF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6190D2-7AB2-4F71-AA33-35CA6955EF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6190D2-7AB2-4F71-AA33-35CA6955EF2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
